@@ -14,7 +14,7 @@ spec:
       labels:
         app: vaichover
     spec:
-      restartPolicy: Never
+      restartPolicy: OnFailure
       containers:
       - name: vaichover
         image: vaichover
