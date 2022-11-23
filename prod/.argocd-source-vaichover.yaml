@@ -1,0 +1,3 @@
+kustomize:
+  images:
+  - felipefg/infnet-vaichover:221123.9c9cf17
