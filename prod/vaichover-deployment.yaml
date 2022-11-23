@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vaichover-deployment
+  labels:
+    app: vaichover
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: vaichover
+  template:
+    metadata:
+      labels:
+        app: vaichover
+    spec:
+      restartPolicy: Never
+      containers:
+      - name: vaichover
+        image: vaichover
+        ports:
+        - containerPort: 8000
