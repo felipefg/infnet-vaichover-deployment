@@ -9,4 +9,4 @@ resources:
 images:
   - name: vaichover
     newName: felipefg/infnet-vaichover
-    newTag: 221116.e6c3bec
+    newTag: 221123.6bc72bd
