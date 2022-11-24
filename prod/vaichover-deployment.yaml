@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: vaichover
-        image: vaichover
+        image: felipefg/infnet-vaichover:221123.6bc72bd
         ports:
         - containerPort: 8000
