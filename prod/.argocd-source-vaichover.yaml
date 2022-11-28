@@ -1,3 +1,3 @@
 kustomize:
   images:
-  - felipefg/infnet-vaichover:221124.dd1359c
+  - felipefg/infnet-vaichover:latest
